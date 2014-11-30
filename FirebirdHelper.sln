@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirebirdHelper", "FirebirdHelper\FirebirdHelper.csproj", "{83F8B5CD-08DE-4EF0-A043-427CBB067C57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{61DE224B-1085-456C-951F-372A378370C9}"
+	ProjectSection(SolutionItems) = preProject
+		DLL\FirebirdSql.Data.FirebirdClient.dll = DLL\FirebirdSql.Data.FirebirdClient.dll
+		DLL\ib_util.dll = DLL\ib_util.dll
+		DLL\icudt30.dll = DLL\icudt30.dll
+		DLL\icuin30.dll = DLL\icuin30.dll
+		DLL\icuuc30.dll = DLL\icuuc30.dll
+		DLL\msvcp80.dll = DLL\msvcp80.dll
+		DLL\msvcr80.dll = DLL\msvcr80.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83F8B5CD-08DE-4EF0-A043-427CBB067C57}.Debug|x86.ActiveCfg = Debug|x86
+		{83F8B5CD-08DE-4EF0-A043-427CBB067C57}.Debug|x86.Build.0 = Debug|x86
+		{83F8B5CD-08DE-4EF0-A043-427CBB067C57}.Release|x86.ActiveCfg = Release|x86
+		{83F8B5CD-08DE-4EF0-A043-427CBB067C57}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
